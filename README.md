@@ -2,5 +2,6 @@
 
 ## Expliquer la différence: NIST et Ethereum
 
-Ethereum uses KECCAK-256. It should be noted that it does not follow the FIPS-202 based standard (a.k.a SHA-3), which was finalized in  August 2015. <br/>
-NIST changed the padding to SHA3-256(M) = KECCAK [512] (M || 01, 256); which was different than the original padding proposed by the Keccak team. It seems that now people are calling the "original" SHA3 Keccak hashing "Keccak" and the new NIST SHA3 standard as "SHA-3". 
+Ethereum utilise KECCAK-256. En fait, il ne respecte pas la norme basée sur la norme FIPS-202 (SHA-3) qui a été terminée en août 2015. <br/>
+Le NIST a modifié le remplissage en SHA3-256 (M) = KECCAK [512] (M || 01, 256); ce qui était différent de l'original proposé par l'équipe Keccak. 
+Actuellement, on appelle souvent le "original" SHA3 Keccak hashing "Keccak" et le nouveau standard NIST SHA3 en "SHA-3" 
